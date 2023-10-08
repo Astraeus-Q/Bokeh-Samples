@@ -24,4 +24,3 @@ p4.circle(x = 'Longitude', y = 'Price', source = Clusters_cds, color = "purple")
 
 grid = gridplot([[p1, p2, p3, p4]])
 show(grid)
-
