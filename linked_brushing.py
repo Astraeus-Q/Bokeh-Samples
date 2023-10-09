@@ -15,7 +15,6 @@ p3 = figure(title = "Number of Convenience Stores", plot_height = 400, plot_widt
 p4 = figure(title = "Longitude", plot_height = 400, plot_width = 400, tools = TOOLS)
 
 
-
 p1.circle(x = 'MRT', y = 'Price', source = Clusters_cds, color = "blue")
 p2.circle(x = 'Age', y = 'Price', source = Clusters_cds, color = "red")
 p3.circle(x = 'Store', y = 'Price', source = Clusters_cds, color = "green")
